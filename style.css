@@ -1,0 +1,121 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+header {
+    background-color: #003366;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 10px;
+  }
+  .container {
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+  }
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+  }
+  .struktur {
+    background-color: #eeeeee;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  h2 {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 30px;
+  }
+  .scroll-wrapper {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0;
+    margin-bottom: 20px;
+  }
+  .scroll-group {
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+  }
+  .jabatan {
+    display: inline-block;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    min-width: 220px;
+    text-align: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  .jabatan img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 8px;
+    border: 2px solid #003366;
+  }
+  .jabatan span {
+    display: block;
+    font-weight: bold;
+    color: #003366;
+  }
+  .jabatan small {
+    display: block;
+    color: #555;
+  }
+.program-kerja {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.program-kerja h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #2c3e50;
+}
+
+.divisi {
+  background-color: #ffffff;
+  border-left: 5px solid #3498db;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(30px);
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+}
+
+.divisi h3 {
+  margin-top: 0;
+  color: #2980b9;
+}
+
+.fade-in.show {
+  transform: translateY(0);
+  opacity: 1;
+}
